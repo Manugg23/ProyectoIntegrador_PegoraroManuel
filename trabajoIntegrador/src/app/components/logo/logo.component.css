@@ -1,3 +1,31 @@
-#LogoAP{
-    width:150px;
+.row{
+    margin:0;
+}
+img{
+    width: 50px;
+}
+.contenedor{
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes a{
+    padding:5px;
+}
+.btn{
+    border-width: medium;
+}
+
+ /* RESPONSIVE DESING */
+@media (max-width: 575px){
+    
+ .contenedor{
+    flex-direction: column;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }
